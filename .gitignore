@@ -1,0 +1,15 @@
+# Ignore everything:
+*
+
+# Except for the src files
+!.gitignore
+!README.md
+!rust/
+!rust/**/
+!rust/**/src/
+!rust/**/src/*.rs
+
+
+#Ignore nested files
+rust/**/.gitignore
+rust/**/README.md
