@@ -1,15 +1,24 @@
 # Ignore everything:
 *
 
-# Except for the src files
+# Except for .gitignore and readme
 !.gitignore
 !README.md
+
+#Only track rs-files in src
 !rust/
 !rust/**/
 !rust/**/src/
 !rust/**/src/*.rs
-
-
-#Ignore nested files
 rust/**/.gitignore
 rust/**/README.md
+
+
+#Only track .fs that is not tests
+!fsharp/
+!fsharp/**/
+!fsharp/**/*.fs
+fsharp/**/*Tests.fs
+fsharp/**/obj/
+fsharp/**/README.md
+
