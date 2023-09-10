@@ -22,3 +22,11 @@ fsharp/**/*Tests.fs
 fsharp/**/obj/
 fsharp/**/README.md
 
+#Only track .cpp that is not tests
+!cpp/
+!cpp/**/
+!cpp/**/*.cpp
+cpp/**/*_test.cpp
+cpp/**/test/
+cpp/**/README.md
+cpp/**/CMakeFiles
