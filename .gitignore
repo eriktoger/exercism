@@ -30,3 +30,10 @@ cpp/**/*_test.cpp
 cpp/**/test/
 cpp/**/README.md
 cpp/**/CMakeFiles
+
+#Only track .zig that is not tests
+!zig/
+!zig/**/
+!zig/**/*.zig
+zig/**/*.md
+zig/**/test_*.zig
