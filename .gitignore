@@ -37,5 +37,6 @@ cpp/**/CMakeFiles
 !zig/**/*.zig
 zig/**/*.md
 zig/**/test_*.zig
+zig/**/main.zig
 #Debugging example
 !zig/difference-of-squares/.vscode/launch.json

@@ -22,7 +22,7 @@ Debugging: change in cpp/.vscode/launch.json "program": "${workspaceFolder}/lasa
 
 ### Zig
 
-There is a commit called: Add debug example for Zig.
+There is a commit called: Add debug example for Zig. You also need to build main before debugging it with: zig build-exe main.zig.
 
 To get IntelliSense in vs code to work I needed to:
 
