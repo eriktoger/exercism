@@ -2,7 +2,14 @@
 
 Solutions to https://exercism.org
 
-Right now Im doing the rust track.
+Right now Im doing the C# track.
+
+## Installing CLI
+
+You need to install the CLI and:
+- set the configure token that you get fron Exercism
+- set workspace to the directory this readme is in.
+- submit by using ´exercism submit -path-/filename´
 
 ## Commands while working with the exercises:
 
@@ -30,3 +37,7 @@ To get IntelliSense in vs code to work I needed to:
 - Install zls
 - Add zls to path
 - Build zls with enable_autofix = false. (Add "enable_autofix" : false to .confgi/zls.json, didnt work for me)
+
+
+### CSharp
+
