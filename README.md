@@ -42,3 +42,4 @@ To get IntelliSense in vs code to work I needed to:
 ### CSharp
 
  - The intellisense only works of I open up the exercise folder.
+ - For some exercies I needed to specify what .csproj file to build or test. with  dotnet test InterestIsInteresting.csproj 
