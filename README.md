@@ -41,3 +41,4 @@ To get IntelliSense in vs code to work I needed to:
 
 ### CSharp
 
+ - The intellisense only works of I open up the exercise folder.
