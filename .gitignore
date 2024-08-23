@@ -4,6 +4,8 @@
 # Except for .gitignore and readme
 !.gitignore
 !README.md
+#But ingore sub-readme
+**/README.md 
 
 #Only track rs-files in src
 !rust/
@@ -11,8 +13,6 @@
 !rust/**/src/
 !rust/**/src/*.rs
 rust/**/.gitignore
-rust/**/README.md
-
 
 #Only track .fs that is not tests
 !fsharp/
@@ -20,7 +20,6 @@ rust/**/README.md
 !fsharp/**/*.fs
 fsharp/**/*Tests.fs
 fsharp/**/obj/
-fsharp/**/README.md
 
 #Only track .cpp that is not tests
 !cpp/
@@ -28,15 +27,22 @@ fsharp/**/README.md
 !cpp/**/*.cpp
 cpp/**/*_test.cpp
 cpp/**/test/
-cpp/**/README.md
 cpp/**/CMakeFiles
 
 #Only track .zig that is not tests
 !zig/
 !zig/**/
 !zig/**/*.zig
-zig/**/*.md
 zig/**/test_*.zig
 zig/**/main.zig
 #Debugging example
 !zig/difference-of-squares/.vscode/launch.json
+
+#Only track .cs that is not tests
+!csharp/
+!csharp/**/
+csharp/**/bin
+csharp/**/obj
+!csharp/**/*.cs
+csharp/**/*Tests.cs
+csharp/**/.exercism
